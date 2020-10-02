@@ -1,0 +1,83 @@
+p {
+    margin: 0;
+}
+
+.posting {
+    display: block !important;
+    width: 100%;
+}
+
+.tweet {
+    width: 100%;
+    height: auto;
+}
+
+.title-tweet {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.a-custom {
+    color: #536dfe;
+}
+
+.btn-custom {
+    background-color: #536dfe;
+    border-color: #536dfe;
+    color: white;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.btn-link:hover,
+a:hover {
+    color: #3490dc;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    background: #6c757d;
+    color: #fff;
+}
+/* #536dfe */
+footer p {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.content-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-footer {
+    padding: 5px 10px;
+    color: #fff;
+}
+
+ion-icon {
+    font-size: 32px;
+}
+
+.icon-bs {
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .posting {
+        display: inline-block !important;
+        width: auto;
+    }
+
+    .tweet {
+        width: 40%;
+        height: 200px;
+    }
+}
